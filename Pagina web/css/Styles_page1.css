@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(135deg,
+        #00B7D4 ,#505488 ,#2F3F80, #161569,
+        #5A4894, #A950A1, #FF7CAE);
+        background-size: 500%;
+        animation: animation 60s infinite;
+    }
+
+/* Buttom "Start Text centrado*/
+.Text{
+    color: white;
+    text-align: center;
+    margin: 300px 0%;
+    font-size: 28px;
+    
+}
+/* Animation background */
+@keyframes animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+/* Centrado logo */
+.Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    }
+

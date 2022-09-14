@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+    }
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* Navigation */
+
+.na-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+/* Nav left */
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 20px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid white;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
